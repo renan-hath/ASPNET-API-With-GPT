@@ -1,0 +1,6 @@
+@ASPNET_API_With_GPT_HostAddress = http://localhost:5049
+
+GET {{ASPNET_API_With_GPT_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
