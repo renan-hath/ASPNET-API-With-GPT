@@ -1,4 +1,7 @@
+using ASPNET_API_With_GPT.Extensions;
+
 var builder = WebApplication.CreateBuilder(args);
+builder.AddChatGpt();
 
 // Add services to the container.
 
