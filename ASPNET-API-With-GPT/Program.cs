@@ -1,6 +1,7 @@
 using ASPNET_API_With_GPT.Extensions;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddSerilog(builder.Configuration, "ASP.NET Web API with ChatGPT");
 builder.AddChatGpt();
 
 // Add services to the container.
